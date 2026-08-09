@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maincrafts | Contact Us</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header & Toggle Navigation -->
+    <header class="main-header">
+      <div class="header-container">
+        <div class="logo">
+          <a href="index.html">Maincrafts<span>.</span></a>
+        </div>
+
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Toggle Navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <nav class="navbar">
+          <ul class="nav-menu" id="navMenu">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle">
+                Services <i class="fas fa-chevron-down arrow-icon"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#" class="dropdown-item">Web Development</a></li>
+                <li><a href="#" class="dropdown-item">App Design</a></li>
+                <li><a href="#" class="dropdown-item">Cloud Solutions</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link active">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="submissions.html" class="nav-link">Submissions</a>
+            </li>
+            <li class="nav-item">
+              <a href="dashboard.html" class="nav-link">Dashboard</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Contact Form Section -->
+    <section class="contact-section">
+      <div class="contact-container">
+        <h2>Get in Touch</h2>
+        <p>Have questions or want to work with us? Fill out the form below.</p>
+
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your full name"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email address"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Write your message here..."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="footer-container">
+        <p>&copy; 2026 Maincrafts. All rights reserved.</p>
+        <nav class="footer-links">
+          <a href="#">Privacy Policy</a> | <a href="#">Terms</a> |
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
