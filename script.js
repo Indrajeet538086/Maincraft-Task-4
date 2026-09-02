@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // ------------------------------------------
-  // 1. MOBILE NAVIGATION TOGGLE
-  // ------------------------------------------
+  
+  //  MOBILE NAVIGATION TOGGLE
+ 
   const navToggle = document.getElementById("navToggle");
   const navMenu = document.getElementById("navMenu");
 
@@ -16,9 +16,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // ------------------------------------------
-  // 2. CONTACT FORM & SUBMISSIONS (TASKS 2 & 3)
-  // ------------------------------------------
+  
+  //  CONTACT FORM & SUBMISSIONS 
+  
   const contactForm = document.getElementById("contactForm");
   const submissionsList = document.getElementById("submissionsList");
   const clearDataBtn = document.getElementById("clearDataBtn");
@@ -118,9 +118,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // ------------------------------------------
-  // 3. TASK CRUD DASHBOARD LOGIC (TASK 4)
-  // ------------------------------------------
+  
+  //  TASK CRUD DASHBOARD 
+  
   const addTaskForm = document.getElementById("addTaskForm");
   const taskInput = document.getElementById("taskInput");
   const taskList = document.getElementById("taskList");
